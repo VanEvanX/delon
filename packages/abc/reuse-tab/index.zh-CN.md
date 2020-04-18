@@ -176,7 +176,7 @@ export class DemoComponent {
 `clearTitleCached()` | 清空自定义标题数据 | `void`
 `getClosable(url, route?: ActivatedRouteSnapshot)` | 获取 `closable` 状态 | `string`
 `clearClosableCached()` | 清空 `closable` 缓存 | `void`
-`remove(url)` | 根据URL移除标签，同时触 `change` remove事件 | `void`
+`close(url)` | 根据URL移除标签，同时触 `change` remove事件 | `boolean`
 `move(url, position)` | 移动缓存数据，同时触 `change` move事件 | `void`
 `clear()` | 清除所有缓存，同时触 `change` clear事件 | `void`
 `refresh()` | 无任何动作，但会触 `change` refresh事件 | `void`
